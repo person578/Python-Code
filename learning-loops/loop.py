@@ -1,4 +1,4 @@
-a = "string"
+a = "bark"
 
 for i in a:
-    print(i)
+    print(a.upper())
