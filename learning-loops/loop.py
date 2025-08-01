@@ -1,4 +1,4 @@
 a = "bark"
 
 for i in a:
-    print(a.upper())
+    print(i.upper())
