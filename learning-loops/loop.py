@@ -1,4 +1,5 @@
-a = "bark"
+meow = int(input("How many times does the cat meow"))
 
-for i in a:
-    print(i.upper())
+while meow < 0:
+    meow = int(input("How many times does the cat meow"))
+
