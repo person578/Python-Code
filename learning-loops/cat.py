@@ -2,6 +2,6 @@
 i = int(input("How many times do you want to make the cat meow? "))
 
 # says "while i is not equal to 0 say "meow" than subtract 1 from variable i"
-while i != 3:
+while i != 0:
     print("meow")
-    i = i - 1
+    i -= 1
