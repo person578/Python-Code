@@ -1,12 +1,13 @@
 def main():
     number = get_number()
-    meow()
+    meow(number)
 
 def get_number():
     while True:
         n = int(input("How many times does the cat meow? "))
         if n > 0:
-            return n
+            break
+    return n
 
 
 def meow(n):
