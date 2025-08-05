@@ -1,8 +1,7 @@
-import time
+x = int(input("What's in x? "))
 
-a = 0
+if x % 2 == 0:
+    print(f"{x} is even")
 
-while a < 250:
-    a += 1
-    print(a)
-    time.sleep(0.05)
+else:
+    print(f"{x} is odd")
