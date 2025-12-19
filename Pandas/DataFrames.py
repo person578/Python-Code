@@ -8,4 +8,7 @@ df = pd.DataFrame(data, index=["Employee 1", "Employee 2", "Employee 3", "Employ
 # Add a new column
 df["Job"] = ["Data Analyst", "Data Engineer", "Data Manager", "Sr. Software Engineer"]
 
+# Add a new row
+new_row = pd.DataFrame([{"Name": "Alan", "Age": 43, "Job": "Sr. Software Architect"}])
+
 print(df)
