@@ -6,6 +6,6 @@ data = {"Name": ["Ethan", "Ash", "John", "Tom"],
 df = pd.DataFrame(data, index=["Employee 1", "Employee 2", "Employee 3", "Employee 4"])
 
 # Add a new column
-df["Job"] = ["Data Analyst", "Data Engineer", "Data Manager", "Software Engineer"]
+df["Job"] = ["Data Analyst", "Data Engineer", "Data Manager", "Sr. Software Engineer"]
 
 print(df)
