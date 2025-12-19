@@ -9,6 +9,7 @@ df = pd.DataFrame(data, index=["Employee 1", "Employee 2", "Employee 3", "Employ
 df["Job"] = ["Data Analyst", "Data Engineer", "Data Manager", "Sr. Software Engineer"]
 
 # Add a new row
-new_row = pd.DataFrame([{"Name": "Alan", "Age": 43, "Job": "Sr. Software Architect"}])
+new_row = pd.DataFrame([{"Name": "Alan", "Age": 43, "Job": "Sr. Software Architect"}], index=["Employee 5"])
+df = pd.concat([df, new_row])
 
 print(df)
