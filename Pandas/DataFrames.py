@@ -9,7 +9,8 @@ df = pd.DataFrame(data, index=["Employee 1", "Employee 2", "Employee 3", "Employ
 df["Job"] = ["Data Analyst", "Data Engineer", "Data Manager", "Sr. Software Engineer"]
 
 # Add a new row
-new_row = pd.DataFrame([{"Name": "Alan", "Age": 43, "Job": "Sr. Software Architect"}], index=["Employee 5"])
-df = pd.concat([df, new_row])
+new_rows = pd.DataFrame([{"Name": "Alan", "Age": 43, "Job": "Sr. Software Architect"},
+                               {"Name": "Jacob", "Age": 45, "Job": "Sr. Software Engineer"}], index=["Employee 5", "Employee 6"])
+df = pd.concat([df, new_rows])
 
 print(df)
